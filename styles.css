@@ -12,7 +12,7 @@ p {
   text-align: left;
   padding-right: 1em;
 }
-.results {
+.results, .searched {
   background-color: white;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -38,7 +38,7 @@ p {
   justify-content: center;
 }
 
-#movie1, #movie2, #movie3 {
+#movie1, #movie2, #movie3, #movie4{
   background-color: lightgrey;
   border-radius: 10px;
   border-style: solid;
