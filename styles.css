@@ -1,0 +1,73 @@
+head {
+  background-color: white;
+}
+body {
+  background-color: grey;
+}
+/*.h1 {
+  background-color: red;
+}*/
+p {
+  font-size: 18px;
+  text-align: left;
+  padding-right: 1em;
+}
+.results {
+  background-color: white;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px black;
+  margin: 1em;
+  text-align: center;
+  text-decoration: underline;
+
+}
+.favs {
+  padding-top: 1em;
+}
+
+.movies{
+  padding: 2em;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px black;
+  margin: .5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#movie1, #movie2, #movie3 {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 2px 2px 1px darkgrey;
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+  flex: 0 150px;
+}
+
+/*#movie2{
+  background-color: lightgrey;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 2px 2px 1px darkgrey;
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+}
+
+#movie3{
+  background-color: lightgrey;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 2px 2px 1px darkgrey;
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+}*/
